@@ -1,2 +1,3 @@
 # Instanstock
-Easy access to stock prices
+
+Shows live data on major stock portfolios.
