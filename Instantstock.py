@@ -6,12 +6,12 @@ InstStock = tk.Tk()
 InstStock.geometry('700x300')
 InstStock.title("Instanstock")
 
-# stock_list = ['Tesla', 'Yahoo','Amazon','Alphabet','Facebook']
+# stock_list = ['Tesla', 'Apple', 'Yahoo', 'Amazon' , 'Alphabet' , 'Facebook']
 
 for i in range(4):
 	for j in range(5):
 		frame = tk.Frame(
-			master=window,
+			master=InstStock,
 			relief=tk.RAISED,
 			borderwidth=1
 		)
