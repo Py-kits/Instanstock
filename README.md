@@ -2,4 +2,4 @@
 
 # Instanstock
 
-Shows live data on major stock portfolios.
+Shows live data on major and minor company stock prices as well as Cryptocurrency prices.
