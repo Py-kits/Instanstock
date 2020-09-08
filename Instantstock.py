@@ -2,23 +2,32 @@ import os
 import tkinter as tk
 import yfinance as yf
 
-InstStock = tk.Tk()
-InstStock.geometry('700x300')
-InstStock.title("Instanstock")
+#InstStock = tk.Tk()
+#InstStock.geometry('700x300')
+#InstStock.title("Instanstock")
 
 # current_stock_list = ['Tesla', 'Apple', 'Yahoo', 'Amazon' , 'Alphabet' , 'Facebook', 'Bitcoin']
 
-tsla.stock = yf.Ticker()
-aapl.stock = yf.Ticker()
-amzn.stock = yf.Ticker()
-alph.stock = yf.Ticker()
-goog.stock = yf.Ticker()
-btc-usd.stock = yf.Ticker
+tsla = yf.Ticker("TSLA")
+aapl = yf.Ticker("AAPL")
+amzn = yf.Ticker("AMZN")
+goog = yf.Ticker("GOOG")
+nvda = yf.Ticker("NVDA")
+msft = yf.Ticker("MSFT")
+amd = yf.Ticker("AMD")
+
+print(tsla)
+print(aapl)
+print(amzn)
+print(goog)
+print(nvda)
+print(msft)
+print(amd)
 
 
 tsla.info
 
-tsla.history(period=max)
+tsla.history(period="max")
 
 
 #for i in range(4):
@@ -37,4 +46,4 @@ tsla.history(period=max)
 # Shows their daily movement 
 
 
-InstStock.mainloop()
+#InstStock.mainloop()
